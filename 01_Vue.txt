@@ -1,0 +1,126 @@
+npm install -g @vue/cli -> npm으로 Vue-cli를 global(-g)하게 설치한다는 뜻
+
+npm install -g @vue/cli-init : ??? 설치안함 
+
+
+vue --version
+
+
+vue create frontend  : "frontend"라고 프로젝트
+
+npm run build
+
+npm run serve : Vue-cli를 통해 서버를 실행시키는 명령어
+
+serve, build, lint 가 존재하는데,
+각각 서버를 실행, 빌드, lint(소스코드 검사) 실행
+
+###############################################################
+--Vue Board
+/** Vue 설치 **/
+yarn global add vue
+
+yarn global add @vue/cli-init
+
+vue init webpack vue_board
+? Project name vue_board
+? Project description A Vue.js project
+? Author toby.k <toby.k@kakao.com>
+? Vue build standalone
+? Install vue-router? Yes
+? Use ESLint to lint your code? No
+? Set up unit tests Yes
+? Pick a test runner jest
+? Setup e2e tests with Nightwatch? No
+? Should we run `npm install` for you after the project has been created? (recommended) yarn
+
+yarn start    : 시작!!
+
+
+###############################################################
+[Bootstrap-Vue로 게시판 만들기]1. Setting 하기, Header 만들기
+
+vue init webpack bootstrap-bbs
+
+--> yarn 대신 npm 으로 선택
+
+# With npm
+npm install vue bootstrap bootstrap-vue
+
+
+# https://bootstrap-vue.org/docs
+
+Using module bundlers 설정하기
+
+
+###############################################################
+[frontend 프로젝트]
+
+vue init webpack frontend
+
+--> yarn 대신 npm 으로 선택
+
+# With npm
+npm install vue bootstrap bootstrap-vue
+
+npm uninstall vue bootstrap bootstrap-vue
+
+npm uninstall bootstrap
+npm install bootstrap@4.5.3
+
+npm install vue@2.6 bootstrap@4.5.3 bootstrap-vue
+
+Vue.js v2.6 is required, v2.6.12 is recommended
+Bootstrap v4.3.1 is required, v4.5.3 is recommended
+
+
+$ vue -V
+@vue/cli 5.0.1
+
+bootstrap-vue             | With more than 85…   | =jackmu95 =pi0… | 2021-01-01 | 2.21.2
+
+bootstrap                 | The most popular…    | =bootstrap-adm… | 2021-10-09 | 5.1.3
+
+
+--gem install bootstrap -v 5.1.3
+
+
+# https://bootstrap-vue.org/docs
+
+v2.21.2
+
+Vue.js v2.6 is required, v2.6.12 is recommended
+Bootstrap v4.3.1 is required, v4.5.3 is recommended <--------!!!!
+Popper.js v1.16 is required for dropdowns (and components based on dropdown), tooltips, and popovers. v1.16.1 is recommended
+PortalVue v2.1 is required by Toasts, v2.1.7 is recommended
+jQuery is not required
+
+Using module bundlers 설정하기
+
+npm run
+
+
+### fusioncharts
+
+$ npm install vue-fusioncharts@3.1.0 --save
+
+$ npm install fusioncharts --save
+
+
+npm search vue-fusioncharts
+npm search fusioncharts
+
+npm uninstall fusioncharts --save
+npm uninstall vue-fusioncharts --save
+
+npm uninstall -D fusioncharts 
+npm uninstall -g fusioncharts
+npm uninstall vue-fusioncharts
+
+
+
+npm vue-fusioncharts/v/3.1.0
+
+
+
+
